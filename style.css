@@ -398,6 +398,41 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
+  flex-direction: column; /* Updated to a column layout */
+  align-items: center;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  background: #fafafa;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  width: 60%;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container input {
+  font-size: larger;
+  border: none;
+  outline: none;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+
+
+/* .contact-info-upper-container {
+  display: flex;
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -415,8 +450,10 @@ article .icon {
   margin: 1rem;
 }
 
-.contact-info-container p {
+.contact-info-container input {
   font-size: larger;
+  border: none;
+  outline: none;
 }
 
 .contact-icon {
@@ -425,7 +462,7 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
-}
+} */
 
 /* FOOTER SECTION */
 
