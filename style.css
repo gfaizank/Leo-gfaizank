@@ -37,6 +37,13 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: fixed;
+  background-color: #FFFFFF;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  z-index: 1000;
+  /* padding: 1rem;  */ 
 }
 
 .nav-links {
